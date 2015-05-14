@@ -13,6 +13,7 @@
 		CC8ED18D1AF9E823000077D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8ED18C1AF9E823000077D8 /* Images.xcassets */; };
 		CC8ED1901AF9E823000077D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8ED18E1AF9E823000077D8 /* LaunchScreen.xib */; };
 		CC8ED19C1AF9E823000077D8 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8ED19B1AF9E823000077D8 /* HelloWorldTests.swift */; };
+		CCC457421B01DAB6008FFDE2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC457411B01DAB6008FFDE2 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		CC8ED1801AF9E823000077D8 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8ED1841AF9E823000077D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8ED1851AF9E823000077D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC8ED1871AF9E823000077D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC8ED1871AF9E823000077D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		CC8ED18A1AF9E823000077D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC8ED18C1AF9E823000077D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC8ED18F1AF9E823000077D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CC8ED1951AF9E823000077D8 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8ED19A1AF9E823000077D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8ED19B1AF9E823000077D8 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		CCC457411B01DAB6008FFDE2 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CC8ED18C1AF9E823000077D8 /* Images.xcassets */,
 				CC8ED18E1AF9E823000077D8 /* LaunchScreen.xib */,
 				CC8ED1831AF9E823000077D8 /* Supporting Files */,
+				CCC457411B01DAB6008FFDE2 /* Person.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC457421B01DAB6008FFDE2 /* Person.swift in Sources */,
 				CC8ED1881AF9E823000077D8 /* ViewController.swift in Sources */,
 				CC8ED1861AF9E823000077D8 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				CC8ED1A11AF9E823000077D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC8ED1A21AF9E823000077D8 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				CC8ED1A41AF9E823000077D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
